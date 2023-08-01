@@ -11,7 +11,9 @@ export interface CustomButtonProps {
    isDisabled?:boolean
 
 }
-
+export interface HomeProps {
+   searchParams: FilterProps;
+ }
 export interface SearchMenufecturerProps{
 
    manufacturer:String,
